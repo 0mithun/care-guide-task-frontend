@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-zinc-950 text-zinc-50 font-sans selection:bg-zinc-800 selection:text-zinc-100 antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-zinc-100 tracking-tight;
+  }
+}
+
+/* Custom minimal scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-zinc-950;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-zinc-800 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-zinc-700;
+}
