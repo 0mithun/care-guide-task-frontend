@@ -295,7 +295,7 @@ export default function AdminPanel() {
             <input
               type="text"
               className="bg-zinc-950 border border-zinc-800 rounded px-3 py-2 text-zinc-100 font-mono text-xs focus:border-zinc-700 outline-none"
-              placeholder="user_dev"
+              placeholder="username"
               value={username}
               onChange={e => setUsername(e.target.value)}
               required
@@ -307,7 +307,7 @@ export default function AdminPanel() {
             <input
               type="email"
               className="bg-zinc-950 border border-zinc-800 rounded px-3 py-2 text-zinc-100 font-mono text-xs focus:border-zinc-700 outline-none"
-              placeholder="user@domain.com"
+              placeholder="user@example.com"
               value={email}
               onChange={e => setEmail(e.target.value)}
               required
@@ -329,7 +329,7 @@ export default function AdminPanel() {
           </div>
 
           <div className="flex flex-col gap-1.5">
-            <label className="text-xs font-mono text-zinc-400">System Role</label>
+            <label className="text-xs font-mono text-zinc-400">Role</label>
             <select
               className="bg-zinc-950 border border-zinc-800 rounded px-3 py-2 text-zinc-100 font-mono text-xs focus:border-zinc-700 outline-none appearance-none cursor-pointer"
               value={role}
