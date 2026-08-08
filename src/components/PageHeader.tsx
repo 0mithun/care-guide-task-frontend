@@ -37,7 +37,7 @@ export default function PageHeader() {
         {user.role === 'admin' && (
           <Link href="/users" className={`flex items-center gap-2 px-3 py-1.5 rounded text-sm font-medium font-mono transition-colors ${pathname === '/users' ? 'bg-zinc-950 text-zinc-100 border border-zinc-800' : 'text-zinc-400 hover:text-zinc-100'}`}>
             <IoShieldCheckmarkOutline size={16} />
-            <span>Admin</span>
+            <span>Users</span>
           </Link>
         )}
       </nav>
