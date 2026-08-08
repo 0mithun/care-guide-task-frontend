@@ -7,7 +7,7 @@ This is the user interface for the Secure Note-Taking and Public Posts web appli
 * **Notes Dashboard (`/dashboard`):** Personal dashboard displaying only your private notes with full CRUD capabilities. It also supports search parameters to view notes belonging to a specific owner (for Admins).
 * **Posts Feed (`/posts`):** Public feed of all user posts. Supports direct inline filtering by clicking any author's username.
 * **Interests Board (`/interests`):** Scenario 1 aggregation board showing users grouped by their shared interests.
-* **Admin Console (`/users`):** Directory listing where system Admins can add, update, delete, or promote users. Admins can click Notes/Posts actions next to any user row to view that user's specific archive.
+* **Users (`/users`):** Directory listing where system Admins can add, update, delete, or promote users. Admins can click Notes/Posts actions next to any user row to view that user's specific archive.
 
 ## Setup Instructions
 

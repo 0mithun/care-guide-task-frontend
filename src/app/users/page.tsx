@@ -165,14 +165,6 @@ export default function AdminPanel() {
   return (
     <div className="max-w-6xl mx-auto px-4 pb-20">
       <PageHeader />
-
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8 border-b border-zinc-800 pb-4">
-        <div>
-          <h2 className="text-lg font-bold font-mono tracking-tight text-zinc-100">&gt; Admin Console</h2>
-          <p className="text-xs font-mono text-zinc-500 mt-1">Global System Administration</p>
-        </div>
-      </div>
-
       {errorMsg && (
         <div className="bg-red-950/20 border border-red-900 text-red-400 text-xs font-mono p-3 rounded mb-6">
           [ERR] {errorMsg}

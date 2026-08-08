@@ -175,7 +175,7 @@ export default function NotesDashboard() {
 
         <div className="flex justify-between items-center border-b border-zinc-800 pb-4">
           <div>
-            <h2 className="text-lg font-bold font-mono tracking-tight text-zinc-100">&gt; My Notes</h2>
+            <h2 className="text-lg font-bold font-mono tracking-tight text-zinc-100">My Notes</h2>
           </div>
           <button
             onClick={openCreateModal}

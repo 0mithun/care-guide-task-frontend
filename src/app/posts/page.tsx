@@ -183,7 +183,7 @@ export default function PostsFeed() {
 
         <div className="flex justify-between items-center border-b border-zinc-800 pb-4">
           <div>
-            <h2 className="text-lg font-bold font-mono tracking-tight text-zinc-100">&gt; Public Posts</h2>
+            <h2 className="text-lg font-bold font-mono tracking-tight text-zinc-100">Posts</h2>
           </div>
           <button
             onClick={openCreateModal}

@@ -17,7 +17,7 @@ export default function PageHeader() {
     <header className="w-full bg-zinc-900 border border-zinc-800 rounded-md px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4 mb-8 mt-4">
       <div className="flex items-center gap-2">
         <Link href="/dashboard" className="text-lg font-bold font-mono tracking-tight text-zinc-100">
-          <span className="text-indigo-500">&gt; </span>Secure Notes
+        Secure Notes
         </Link>
       </div>
 
