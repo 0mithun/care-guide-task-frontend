@@ -184,7 +184,7 @@ export default function AdminPanel() {
           <div className="flex justify-between items-center">
             <h3 className="text-sm font-semibold font-mono text-zinc-100 flex items-center gap-2">
               <IoPeopleOutline size={16} className="text-indigo-400" />
-              <span>Users Directory</span>
+              <span>User Lists</span>
               <span className="text-[10px] font-mono font-normal px-2 py-0.5 rounded bg-zinc-950 border border-zinc-800 text-zinc-400">
                 Total: {totalUsers}
               </span>
